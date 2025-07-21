@@ -35,26 +35,27 @@ nav ul li a {
     color: #2c2c2c;
     text-decoration: none;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.1rem;
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
 
 }
 
 nav ul li a:hover {
-    background-color: #e6e4d7;
+    
     color: #f76f53;
     
 }
 
 header {
     text-align: center;
-    padding: 300px 20px 40px;
-    
+    display: block;
+    max-width: 1300px;
+    margin: 140px auto;
 }
 
 header h1 {
-    font-size: 6rem;
+    font-size: 7.3em;
     font-weight: 300;
     letter-spacing: 2px;
     font-weight: 300;
@@ -64,9 +65,8 @@ header h1 {
 header p {
     color: #2e2e2e;
     font-style: italic;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     letter-spacing: 1px;
-    ;
 }
 header h1 b {
     font-weight: 300;
@@ -78,7 +78,7 @@ header h1 b {
 
 .main {
     display: flex;
-    margin: 280px auto;
+    margin: 310px auto;
     max-width: 1300px;
     gap: 40px;
     padding: 0px 20px;
@@ -93,14 +93,14 @@ header h1 b {
 }
 
 .sidebar h2{
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: 400;
     margin-bottom: 20px;
     
 }
 
 .sidebar p {
-    font-size: 0.95rem;
+    font-size: 1.3rem;
     color: #555555;
     margin-bottom: 20px;
 }
@@ -112,6 +112,8 @@ header h1 b {
 .sidebar ul li {
     padding: 8px 0;
     border-bottom: 1px solid #eee;
+    font-size: 1rem;
+    color: #555555;
 }
 
 .sidebar ul li:last-child {
