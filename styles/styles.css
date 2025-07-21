@@ -52,6 +52,24 @@ header {
     display: block;
     max-width: 1300px;
     margin: 140px auto;
+    position: relative;
+}
+
+.github-link {
+    margin-top: 40px;
+    right: 0;
+}
+
+.github-link a {
+    display: inline-block;
+    color: #2c2c2c;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 10px;
+}
+
+.github-link a:hover {
+    color: #f76f53;
+    transform: scale(1.1);
 }
 
 header h1 {
@@ -179,34 +197,4 @@ footer{
     margin-top: 60px;
     font-size: 1rem;
     letter-spacing: 0.5px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .contenedor-principal {
-        flex-direction: column;
-        margin: 20px auto;
-        gap: 20px;
-    }
-    
-    header h1 {
-        font-size: 2rem;
-    }
-    
-    nav ul {
-        flex-direction: column;
-    }
-    
-    nav ul li a {
-        padding: 15px;
-        border-bottom: 1px solid #eee;
-    }
-    
-    .cont {
-        padding: 25px;
-    }
-    
-    .sidebar {
-        padding: 20px;
-    }
 }
