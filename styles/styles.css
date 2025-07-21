@@ -63,8 +63,14 @@ nav ul li a {
     font-weight: 400;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
 
+}
+
+nav ul li a:hover {
+    background-color: #e6e4d7;
+    color: #f76f53;
+    
 }
 
 .main {
@@ -111,6 +117,12 @@ nav ul li a {
 .cont{
     flex: 2.5;
     box-shadow: #e6e4d7 0px 0px 10px;
-    padding: 30px;
+    padding: 40px;
+border-radius: 3px;
+}
 
+.cont h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 30px;
 }
