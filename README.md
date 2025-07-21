@@ -133,6 +133,6 @@ Las contribuciones son bienvenidas. Para cambios importantes:
 
 ---
 
-**© 2025 MinimalLiving. Todos los derechos reservados.**
+**© 2025 Minimal Living. Todos los derechos reservados.**
 
 
