@@ -135,4 +135,4 @@ Las contribuciones son bienvenidas. Para cambios importantes:
 
 **© 2025 MinimalLiving. Todos los derechos reservados.**
 
-*"La simplicidad es la máxima sofisticación." - Leonardo da Vinci*
+
