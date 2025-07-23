@@ -193,15 +193,17 @@ border-radius: 3px;
 /* Sección de Galería con Flexbox */
 .gallery-container {
     max-width: 1300px;
-    margin: 0 auto;
+    margin: 100px auto;
     padding: 0 20px;
+    margin-bottom: 400px;
+
 }
 
-.gallery h2 {
+.gallery-container h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 300;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     color: #2e2e2e;
 }
 
@@ -248,86 +250,8 @@ footer{
 
 /* Media Queries para Responsive Design */
 
-/* Tablets y pantallas medianas (hasta 768px) */
-@media (max-width: 768px) {
-    header {
-        margin: 80px auto;
-        padding: 0 20px;
-    }
 
-    header h1 {
-        font-size: 4.5em;
-    }
-
-    header p {
-        font-size: 1.2rem;
-    }
-
-    .main {
-        flex-direction: column;
-        margin: 60px auto;
-        gap: 30px;
-    }
-
-    .sidebar {
-        order: 2;
-    }
-
-    .cont {
-        order: 1;
-    }
-
-    nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    nav ul li a {
-        padding: 15px 20px;
-        font-size: 1rem;
-    }
-
-    /* Responsive para las nuevas secciones - Tablets */
-    .cards-container {
-        gap: 20px;
-        margin: 60px auto;
-    }
-
-    .card {
-        flex: 1 1 280px;
-        padding: 25px;
-    }
-
-    .gallery-container {
-        margin: 60px auto;
-    }
-
-    .gallery-title {
-        font-size: 2.2rem;
-        margin-bottom: 40px;
-    }
-
-    .gallery-item {
-        flex: 1 1 220px;
-    }
-
-    .features-section {
-        padding: 60px 0;
-    }
-
-    .features-header h2 {
-        font-size: 2.4rem;
-    }
-
-    .features-list {
-        gap: 30px;
-    }
-
-    .feature-item {
-        flex: 1 1 250px;
-        padding: 20px;
-    }
-}
+    
 
 /* Smartphones (hasta 480px) */
 @media (max-width: 480px) {
@@ -428,35 +352,13 @@ footer{
         margin-top: 30px;
     }
 
-    /* Responsive para las nuevas secciones - Móviles */
-    .cards-container {
-        flex-direction: column;
-        gap: 15px;
-        margin: 40px auto;
-        padding: 0 15px;
-    }
-
-    .card {
-        flex: 1 1 auto;
-        max-width: 100%;
-        padding: 20px;
-    }
-
-    .card h3 {
-        font-size: 1.5rem;
-    }
-
-    .card .icon {
-        font-size: 2rem;
-        margin-bottom: 15px;
-    }
 
     .gallery-container {
         margin: 40px auto;
         padding: 0 15px;
     }
 
-    .gallery-title {
+    .gallery-container h2 {
         font-size: 1.8rem;
         margin-bottom: 30px;
     }
@@ -477,84 +379,5 @@ footer{
 
     .gallery-item-content {
         padding: 15px;
-    }
-
-    .features-section {
-        padding: 40px 0;
-        margin: 40px 0;
-    }
-
-    .features-container {
-        padding: 0 15px;
-    }
-
-    .features-header {
-        margin-bottom: 30px;
-    }
-
-    .features-header h2 {
-        font-size: 2rem;
-    }
-
-    .features-header p {
-        font-size: 1rem;
-    }
-
-    .features-list {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .feature-item {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-        gap: 15px;
-    }
-
-    .feature-icon {
-        align-self: center;
-        width: 45px;
-        height: 45px;
-        font-size: 1.3rem;
-    }
-
-    .feature-content h4 {
-        font-size: 1.2rem;
-    }
-
-    .feature-content p {
-        font-size: 0.95rem;
-    }
-}
-
-/* Pantallas muy pequeñas (hasta 320px) */
-@media (max-width: 320px) {
-    header h1 {
-        font-size: 2.8em;
-    }
-
-    .cont h2 {
-        font-size: 1.9rem;
-    }
-
-    .cont h3 {
-        font-size: 1.5rem;
-    }
-
-    .sidebar h2 {
-        font-size: 1.3rem;
-    }
-
-    .card h3 {
-        font-size: 1.3rem;
-    }
-
-    .gallery-title {
-        font-size: 1.6rem;
-    }
-
-    .features-header h2 {
-        font-size: 1.7rem;
     }
 }
